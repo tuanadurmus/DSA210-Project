@@ -23,7 +23,7 @@ This dataset includes specific date information associated with the genres.
 I expect to choose more upbeat and hype genres (e.g., pop, electronic, or hip-hop) when I am exposed to positive TikTok content and more slow and emotional genres (e.g., indie, classical, or lo-fi) when exposed to negative TikTok content.
 
 
-## Data Extraction and Preprocessing
+## Data Extraction
 TikTok Data:
 Extract the URLs of liked videos from the TikTok API.
 Retrieve the associated hashtags of these liked videos.
