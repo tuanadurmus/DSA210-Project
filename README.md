@@ -1,2 +1,34 @@
 # A Data Analysis Investigating Daily TikTok Content and Spotify Listening Habits
-In this project, I'm using my TikTok liked video data and Spotify listened genre data simultaneously. By extracting the url of the TikTok videos that I liked, I'm going to reach the hashtags of the videos, then classify them under two contrasting categories using the words from the hashtags: negative content and positive content. At the same time, I'm going to get the genre of the music I've mostly listened to from Spotify on that specific day that I've liked those TikTok's. Basically the content of my datasets will include the URL's of the liked videos from TikTok (with specific date and time information) and most listened genre from Spotify (with specific date information). The main purpose of this project is to seek for a relation between the content I'm exposed from TikTok and the music type I choose to listen with the effect from those contents on my emotions. My main expectation is to have chosen more upbeat and hype sounds when I'm exposed to positive content and more slow and emotional sounds when I'm exposed to negative content. This data analysis could show the huge impact of social media and the content we consume on our daily mood and emotions.  
+## Project Idea
+
+In this project, I'm using my TikTok liked video data and Spotify listened genre data simultaneously. By extracting the URL of the TikTok videos that I liked, I aim to reach the hashtags of the videos, then classify them under two contrasting categories using the words from the hashtags: negative content and positive content. At the same time, I will get the genre of the music I’ve mostly listened to from Spotify on the specific day that I've liked those TikToks.
+
+The main purpose of this project is to explore the relationship between the content I'm exposed to on TikTok and the music type I choose to listen to on Spotify, and to understand the emotional effect these contents might have on my mood. This data analysis could highlight the huge impact of social media and the content we consume on our daily mood and emotions.
+
+## Data Sources
+
+The datasets used in this project include two main sources:
+
+TikTok Liked Video Data:
+The URL of the TikTok videos that I liked.
+Each URL is accompanied by specific date and time information.
+The hashtags of the liked TikTok videos are extracted and classified into positive or negative content based on the words in the hashtags.
+
+Spotify Listening Data:
+The genre of music I listened to most frequently on each specific day.
+This dataset includes specific date information associated with the genres.
+
+## Hypothesis
+
+I expect to choose more upbeat and hype genres (e.g., pop, electronic, or hip-hop) when I am exposed to positive TikTok content and more slow and emotional genres (e.g., indie, classical, or lo-fi) when exposed to negative TikTok content.
+
+
+## Data Extraction and Preprocessing
+TikTok Data:
+Extract the URLs of liked videos from the TikTok API.
+Retrieve the associated hashtags of these liked videos.
+Classify the hashtags into positive or negative categories based on their sentiment or meaning.
+
+Spotify Data:
+Extract the genre of music I listened to the most on each specific day using the Spotify API.
+If multiple genres are listened to on a given day, the genre with the most listening time is selected.
