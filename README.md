@@ -2,21 +2,38 @@
 
 ## Contents
 
--[Project Idea](##-project-idea)
+## Table of Contents
 
--[Motivation](##motivation)
+- [Project Idea](#project-idea)
+- [Motivation](#motivation)
+- [Tools](#tools)
+- [Hypothesis](#hypothesis)
+- [Data Sources](#data-sources)
+  - [TikTok Liked Video Data](#tiktok-liked-video-data)
+  - [Spotify Listening Data](#spotify-listening-data)
+- [Data Extraction](#data-extraction)
+  - [TikTok Data](#tiktok-data)
+  - [Spotify Data](#spotify-data)
+- [Data Processing](#data-processing)
+  - [TikTok Data Processing](#tiktok-data-processing)
+  - [Spotify Data Processing](#spotify-data-processing)
+- [Machine Learning Approaches for Data Classification](#machine-learning-approaches-for-data-classification)
+  - [TikTok Data Classification](#tiktok-data-classification)
+  - [Spotify Data Classification](#spotify-data-classification)
+- [Data Visualization](#data-visualization)
+  - [TikTok Hashtag Data Visualization](#tiktok-hashtag-data-visualization)
+  - [Spotify Music Genre Distribution Visualization](#spotify-music-genre-distribution-visualization)
+- [Data Analysis and Findings](#data-analysis-and-findings)
+  - [TikTok and Spotify Have Different Sentiment Trends](#tiktok-and-spotify-have-different-sentiment-trends)
+  - [Negative Content on TikTok vs. Spotify](#negative-content-on-tiktok-is-lower-than-spotifys-negative-content)
+  - [Opposite Trends Between TikTok & Spotify](#there-is-a-clear-opposite-trend-between-tiktok--spotify)
+  - [Possible Explanations](#possible-explanations-for-this-trend)
+- [Hypothesis Testing](#hypothesis-testing)
+  - [Null Hypothesis (H₀)](#state-the-null-hypothesis-h₀)
+  - [Alternative Hypothesis (H₁)](#state-the-alternative-hypothesis-h₁)
+  - [Pearson Correlation Test](#perform-pearson-correlation-test)
+- [Limitations and Future Work](#limitations-and-future-work)
 
--[Tools](##tools)
-
--[Hypothesis](##hypothesis)
-
--[Data Sources](##data-sources)
-  -[TikTok Liked Video Data](###tiktok-liked-video-data)
-  -[Spotify Listening Data](###spotify-listening-data)
-
--[Data Extraction](##data-extraction)
-  -[TikTok Data](###tiktok-data:)
-  -[Spotify Data](###spotify-data:)
 
 
 
