@@ -63,5 +63,34 @@ To reach a better understanding of the data, it is useful to visualize them usin
 ### Spotify Music Genre Distribution Visualization
 We go through each step as we did for TikTok data, [Here's](spotify_data_visualization.ipynb) the plotted graphs to gain a more precise insight about the distribution of the data. 
 
-## Data Analysis
+## Data Analysis and Findings
 At the beginning of the project, "The content I'm exposed to on TikTok has a relation with the music I listen to on Spotify" was my first hypothesis. We now, either reject or fail to reject the null hypothesis of "There are no such relation between the TikTok content and Spotify listening habits". Let's first look at [some graphs](sentiment_comparison.ipynb) in which we compare the findings from both datasets. 
+
+At first glance, we can deduce some interpretations from the graphs such as:
+#### TikTok and Spotify Have Different Sentiment Trends
+TikTok's positive content percentage fluctuates significantly over the months, reaching a peak around mid-year before dropping again.
+Spotify’s positive content is relatively stable compared to TikTok, with a higher baseline percentage of positive content overall.
+#### Negative Content on TikTok is Lower Than Spotify's Negative Content
+The orange dashed line (TikTok Negative) remains low throughout the year, indicating that TikTok content tends to be more positive.
+The red dashed line (Spotify Negative) shows fluctuations, peaking in some months and declining in others.
+#### There is a Clear Opposite Trend Between TikTok & Spotify
+When TikTok positive content increases, Spotify’s positive content tends to decrease (e.g., around June-July).
+When TikTok’s negative content rises (October), Spotify’s negative content remains relatively stable.
+#### Possible Explanations for This Trend
+TikTok is a social media platform where viral trends and algorithmic changes may cause fluctuations in sentiment consumption.
+Spotify users may have more stable preferences in music, making sentiment changes more gradual and predictable.
+Exam periods, seasonal effects, or global events could be influencing the type of content people consume.
+
+### Hypothesis Testing 
+#### State the Null Hypothesis (H₀):
+→ There is no significant relationship between TikTok and Spotify sentiment distributions.
+#### State the Alternative Hypothesis (H₁):
+→ There is a significant relationship between TikTok and Spotify sentiment distributions.
+#### Perform Pearson Correlation Test:
+This test measures the linear correlation between two datasets.
+It outputs a correlation coefficient (r) and a p-value.
+If the p-value is less than 0.05, we reject the null hypothesis (H₀), meaning there's a significant correlation.
+
+[Here's](hypothesis_testing.ipynb) the code of the hypothesis testing done on the datasets and if we set the significance level to 0.05, it is clear to see that we fail to reject the null hypothesis of the project.
+
+
