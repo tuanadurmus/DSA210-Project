@@ -47,4 +47,8 @@ The TikTok hashtag csv file includes some lines with no hashtags and also a colu
 ### Spotify Data Processing:
 The Spotify csv file has so many additional information that we are not going to use throughout our project. That's why we choose the way to [process the data](Spotify_data_process.ipynb) before doing analysis.
 
+## Machine Learning Approaches for Data Classification
+Machine learning approaches were used to classify TikTok hashtags and Spotify music genres into two opposing categories (e.g., positive and negative). This classification was achieved using supervised learning techniques to uncover patterns in textual data and automate the sentiment categorization process.
 
+### TikTok Data Classification
+While classification of the hashtag content, supervised machine learning algorithm Support Vector Machines are used. The reason to choose that approach is because it is widely used for text classification, it makes use of decision boundary concepts. This method firstly converts input data (hashtag content in our case) into numerical form, chooses a kernel based on the distribution of the data, does the training to optimize the boundary and uses it to classify the new data. Code implementation is shown [here.](tiktok_data_classification.ipynb)
