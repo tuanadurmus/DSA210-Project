@@ -55,3 +55,7 @@ While classification of the hashtag content, supervised machine learning algorit
 
 ### Spotify Data Classification
 After the data processing step we have the table of timestamps and music genres listened. Just like we did when we classified TikTok data we use supervised machine learning approaches here either. But here, we use random forest approaches different than the TikTok data because Spotfiy data is more high dimensional than TikTok liked video data. Random forest approach creates multiple decision trees and for each output of a decision tree, the model takes the majority vote for predictions. Code implementation on the spotify data csv file is shown [here.](spotify_data_classification.ipynb)
+
+## Data Visualization
+## TikTok Hashtag Data Visualization
+To reach a better understanding of the data, it is useful to visualize them using matplotlib. [Here](tiktok_visualization.ipynb)'s the several graphs of our extracted, processed and classified data's representing the distribution of the percentage of the negative and positive content I was exposed to in each month in 2024.
