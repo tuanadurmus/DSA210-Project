@@ -61,4 +61,4 @@ After the data processing step we have the table of timestamps and music genres 
 To reach a better understanding of the data, it is useful to visualize them using matplotlib. [Here](tiktok_visualization.ipynb)'s the several graphs of our extracted, processed and classified data's representing the distribution of the percentage of the negative and positive content I was exposed to in each month in 2024.
 
 ### Spotify Music Genre Distribution Visualization
-We go through each step as we did for TikTok data, [Here's](spotify_visualization.ipynb) the plotted graphs to gain a more precise insight about the distribution of the data. 
+We go through each step as we did for TikTok data, [Here's](spotify_data_visualization.ipynb) the plotted graphs to gain a more precise insight about the distribution of the data. 
