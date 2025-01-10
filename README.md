@@ -62,3 +62,6 @@ To reach a better understanding of the data, it is useful to visualize them usin
 
 ### Spotify Music Genre Distribution Visualization
 We go through each step as we did for TikTok data, [Here's](spotify_data_visualization.ipynb) the plotted graphs to gain a more precise insight about the distribution of the data. 
+
+## Data Analysis
+At the beginning of the project, "The content I'm exposed to on TikTok has a relation with the music I listen to on Spotify" was my first hypothesis. We now, either reject or fail to reject the null hypothesis of "There are no such relation between the TikTok content and Spotify listening habits". Let's first look at [some graphs](sentiment_comparison.ipynb) in which we compare the findings from both datasets. 
