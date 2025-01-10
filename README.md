@@ -42,6 +42,6 @@ With the help of **Spotify Web API**, I was able to reach the genre of the music
 ## Data Processing
 
 ### TikTok Data Processing:
-The TikTok hashtag csv file includes some lines with no hashtags and also a column with the URLs. For a clean dataset, I should get rid of them with [data processing methods].
+The TikTok hashtag csv file includes some lines with no hashtags and also a column with the URLs. For a clean dataset, I should get rid of them with [data processing methods](TikTok_Data_Processing.py).
 
 
