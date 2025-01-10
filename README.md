@@ -32,11 +32,11 @@ This data is also extracted from the Spotify's personal data request. The datase
 ## Data Extraction
 ### TikTok Data:
 
-The data which Tiktok provides do not contain the hashtag information of the videos. To reach each liked video's hashtag, I made use of a powerful web scraping tool dealing with dynamic TikTok content which is Selenium (which also makes use of ChromeDriver to dynamically extract the hashtags). [The codes](Tiktok_Hashtag_Extract.py) to extract the hashtags from the URLs are provided as a file above.
+The data which Tiktok provides do not contain the hashtag information of the videos. To reach each liked video's hashtag, I made use of a powerful web scraping tool dealing with dynamic TikTok content which is **Selenium** (which also makes use of ChromeDriver to dynamically extract the hashtags). [The codes](Tiktok_Hashtag_Extract.py) to extract the hashtags from the URLs are provided as a file above.
 
 
 ### Spotify Data:
 
-With the help of Spotify Web API, I was able to reach the genre of the music I've listened to. The first step was to create a Spotify Developer Account and get a Client ID. Next step was to run the [following codes](Spotify_genre_extract.py) to reach the genre of the artists to categorize the songs.
+With the help of **Spotify Web API**, I was able to reach the genre of the music I've listened to. The first step was to create a Spotify Developer Account and get a Client ID. Next step was to run the [following codes](Spotify_genre_extract.py) to reach the genre of the artists to categorize the songs.
 
 
