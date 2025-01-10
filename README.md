@@ -2,7 +2,7 @@
 
 ## Contents
 
--[Project Idea](#Project Idea)
+-[Project Idea](## Project Idea)
 
 ## Project Idea
 
@@ -14,14 +14,21 @@ The main purpose of this project is to explore the relationship between the cont
 
 ## Tools
 
-pandas – Used for data manipulation and analysis, enabling efficient handling of structured datasets such as CSV files.
-selenium – A web automation tool used to scrape TikTok hashtags by interacting with web elements programmatically.
-chromedriver – A driver required by Selenium to automate Google Chrome for web scraping and data extraction.
-Spotify Web API – An API service used to fetch music-related metadata, including song genres and artist information.
-numpy – A numerical computing library used for handling arrays, performing mathematical operations, and optimizing computations.
-sklearn (scikit-learn) – A machine learning library providing tools for classification, clustering, and feature extraction, essential for sentiment analysis.
-scipy.stats – A module from SciPy used for performing statistical tests, including hypothesis testing and correlation analysis.
-matplotlib – A data visualization library used to generate graphs, plots, and charts to analyze trends in TikTok and Spotify content consumption.
+**pandas** – Used for data manipulation and analysis, enabling efficient handling of structured datasets such as CSV files.
+
+**selenium** – A web automation tool used to scrape TikTok hashtags by interacting with web elements programmatically.
+
+**chromedriver** – A driver required by Selenium to automate Google Chrome for web scraping and data extraction.
+
+**Spotify Web API** – An API service used to fetch music-related metadata, including song genres and artist information.
+
+**numpy** – A numerical computing library used for handling arrays, performing mathematical operations, and optimizing computations.
+
+**sklearn (scikit-learn)** – A machine learning library providing tools for classification, clustering, and feature extraction, essential for sentiment analysis.
+
+**scipy.stats** – A module from SciPy used for performing statistical tests, including hypothesis testing and correlation analysis.
+
+**matplotlib** – A data visualization library used to generate graphs, plots, and charts to analyze trends in TikTok and Spotify content consumption.
 
 
 
