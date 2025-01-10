@@ -52,3 +52,6 @@ Machine learning approaches were used to classify TikTok hashtags and Spotify mu
 
 ### TikTok Data Classification
 While classification of the hashtag content, supervised machine learning algorithm Support Vector Machines are used. The reason to choose that approach is because it is widely used for text classification, it makes use of decision boundary concepts. This method firstly converts input data (hashtag content in our case) into numerical form, chooses a kernel based on the distribution of the data, does the training to optimize the boundary and uses it to classify the new data. Code implementation is shown [here.](tiktok_data_classification.ipynb)
+
+### Spotify Data Classification
+After the data processing step we have the table of timestamps and music genres listened. Just like we did when we classified TikTok data we use supervised machine learning approaches here either. But here, we use random forest approaches different than the TikTok data because Spotfiy data is more high dimensional than TikTok liked video data. Random forest approach creates multiple decision trees and for each output of a decision tree, the model takes the majority vote for predictions. Code implementation on the spotify data csv file is shown [here.](spotify_data_classification.ipynb)
