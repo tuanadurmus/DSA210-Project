@@ -21,7 +21,7 @@ This data is directly exported from TikTok's personal data request. The data fil
 
 ### Spotify Listening Data:
 This data is also extracted from the Spotify's personal data request. The dataset holds the information of the track name that I listened to at a specific date and time accompanied by artist name and album name. 
-With the help of Spotify Web API, I was able to reach the genre of the music I've listened to. The first step was to create a Spotify Developer Account and get a Client ID. Next step was to run the following codes to reach the genre of the artists to categorize the songs.
+With the help of Spotify Web API, I was able to reach the genre of the music I've listened to. The first step was to create a Spotify Developer Account and get a Client ID. Next step was to run the [following codes](Spotify_genre_extract.py) to reach the genre of the artists to categorize the songs.
 
 
 ## Hypothesis
