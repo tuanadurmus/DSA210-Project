@@ -45,6 +45,6 @@ With the help of **Spotify Web API**, I was able to reach the genre of the music
 The TikTok hashtag csv file includes some lines with no hashtags and also a column with the URLs. For a clean dataset, I should get rid of them with [data processing methods](Tiktok_data_process.ipynb).
 
 ### Spotify Data Processing:
-The Spotify csv file has so many additional information that we are not going to use throughout our project. That's why we choose the way to [process the data] before doing analysis.
+The Spotify csv file has so many additional information that we are not going to use throughout our project. That's why we choose the way to [process the data](Spotify_data_process.ipynb) before doing analysis.
 
 
