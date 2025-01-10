@@ -16,7 +16,7 @@ The main purpose of this project is to explore the relationship between the cont
 The datasets used in this project include two main sources:
 
 ### TikTok Liked Video Data:
-This data is directly exported from TikTok's personal data request. The data file contains the URL's of the TikTok videos that I liked, accompanied by the information of the date and exact time that I liked the video. The data which Tiktok provides do not contain the hashtag information of the videos. To reach each liked videos hashtag, I made use of a powerful web scraping tool dealing with dynamic TikTok content which is Selenium. [The codes] to extract the hashtags from the URL's are provided as a file above.
+This data is directly exported from TikTok's personal data request. The data file contains the URL's of the TikTok videos that I liked, accompanied by the information of the date and exact time that I liked the video. The data which Tiktok provides do not contain the hashtag information of the videos. To reach each liked videos hashtag, I made use of a powerful web scraping tool dealing with dynamic TikTok content which is Selenium. [The codes](Tiktok_Hashtag_Extract.py) to extract the hashtags from the URL's are provided as a file above.
 
 
 ### Spotify Listening Data:
