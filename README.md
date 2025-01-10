@@ -39,4 +39,9 @@ The data which Tiktok provides do not contain the hashtag information of the vid
 
 With the help of **Spotify Web API**, I was able to reach the genre of the music I've listened to. The first step was to create a Spotify Developer Account and get a Client ID. Next step was to run the [following codes](Spotify_genre_extract.py) to reach the genre of the artists to categorize the songs.
 
+## Data Processing
+
+### TikTok Data Processing:
+The TikTok hashtag csv file includes some lines with no hashtags and also a column with the URLs. For a clean dataset, I should get rid of them with [data processing methods].
+
 
