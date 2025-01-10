@@ -1,15 +1,27 @@
 # A Data Analysis Investigating TikTok Content and Spotify Listening Habits
+
+## Contents
+
+-[Project Idea](#Project Idea)
+
 ## Project Idea
 
 In this project, I'm using my TikTok liked video data and Spotify listened genre data simultaneously. By extracting the URL of the TikTok videos that I liked, I aim to reach the hashtags of the videos, then classify them under two contrasting categories using the words from the hashtags: negative content and positive content. At the same time, I will get the genre of the music I’ve mostly listened to from Spotify on the specific month that I've liked those TikToks.
-
-
 
 ## Motivation
 
 The main purpose of this project is to explore the relationship between the content I'm exposed to on TikTok and the music type I choose to listen to on Spotify, and to understand the emotional effect these contents might have on my mood. This data analysis could highlight the huge impact of social media and the content we consume on our daily mood and emotions.
 
 ## Tools
+
+pandas – Used for data manipulation and analysis, enabling efficient handling of structured datasets such as CSV files.
+selenium – A web automation tool used to scrape TikTok hashtags by interacting with web elements programmatically.
+chromedriver – A driver required by Selenium to automate Google Chrome for web scraping and data extraction.
+Spotify Web API – An API service used to fetch music-related metadata, including song genres and artist information.
+numpy – A numerical computing library used for handling arrays, performing mathematical operations, and optimizing computations.
+sklearn (scikit-learn) – A machine learning library providing tools for classification, clustering, and feature extraction, essential for sentiment analysis.
+scipy.stats – A module from SciPy used for performing statistical tests, including hypothesis testing and correlation analysis.
+matplotlib – A data visualization library used to generate graphs, plots, and charts to analyze trends in TikTok and Spotify content consumption.
 
 
 
