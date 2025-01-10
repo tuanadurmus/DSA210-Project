@@ -15,14 +15,14 @@ The main purpose of this project is to explore the relationship between the cont
 
 The datasets used in this project include two main sources:
 
-TikTok Liked Video Data:
-The URL of the TikTok videos that I liked.
-Each URL is accompanied by specific date and time information.
-The hashtags of the liked TikTok videos are extracted and classified into positive or negative content based on the words in the hashtags.
+### TikTok Liked Video Data:
+This data is directly exported from TikTok's personal data request. The data file contains the URL's of the TikTok videos that I liked, accompanied by the information of the date and exact time that I liked the video.
 
-Spotify Listening Data:
-The genre of music I listened to most frequently on each specific time.
-This dataset includes specific date information associated with the genres.
+
+### Spotify Listening Data:
+This data is also extracted from the Spotify's personal data request. The dataset holds the information of the track name that I listened to at a specific date and time accompanied by artist name and album name. 
+With the help of Spotify Web API, I was able to reach the genre of the music I've listened to. The first step was to create a Spotify Developer Account and get a Client ID. Next step was to run the following codes to reach the genre of the artists to categorize the songs.
+
 
 ## Hypothesis
 
