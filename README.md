@@ -11,8 +11,8 @@
 -[Hypothesis](##hypothesis)
 
 -[Data Sources](##data-sources)
-  -[TikTok Liked Video Data](###tiktok-liked-video-data:)
-  -[Spotify Listening Data](###spotify-listening-data:)
+  -[TikTok Liked Video Data](###tiktok-liked-video-data)
+  -[Spotify Listening Data](###spotify-listening-data)
 
 -[Data Extraction](##data-extraction)
   -[TikTok Data](###tiktok-data:)
