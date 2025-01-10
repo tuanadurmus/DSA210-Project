@@ -9,6 +9,10 @@ In this project, I'm using my TikTok liked video data and Spotify listened genre
 
 The main purpose of this project is to explore the relationship between the content I'm exposed to on TikTok and the music type I choose to listen to on Spotify, and to understand the emotional effect these contents might have on my mood. This data analysis could highlight the huge impact of social media and the content we consume on our daily mood and emotions.
 
+## Hypothesis
+
+I expect to choose more upbeat and hype genres (e.g., pop, electronic, or hip-hop) when I am exposed to positive TikTok content and more slow and emotional genres (e.g., indie, classical, or lo-fi) when exposed to negative TikTok content.
+
 ## Tools
 
 ## Data Sources
@@ -24,9 +28,7 @@ This data is also extracted from the Spotify's personal data request. The datase
 With the help of Spotify Web API, I was able to reach the genre of the music I've listened to. The first step was to create a Spotify Developer Account and get a Client ID. Next step was to run the [following codes](Spotify_genre_extract.py) to reach the genre of the artists to categorize the songs.
 
 
-## Hypothesis
 
-I expect to choose more upbeat and hype genres (e.g., pop, electronic, or hip-hop) when I am exposed to positive TikTok content and more slow and emotional genres (e.g., indie, classical, or lo-fi) when exposed to negative TikTok content.
 
 
 ## Data Extraction
