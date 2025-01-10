@@ -2,7 +2,7 @@
 
 ## Contents
 
--[Project Idea](##project-idea)
+-[Project Idea](##-project-idea)
 
 -[Motivation](##motivation)
 
