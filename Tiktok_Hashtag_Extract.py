@@ -8,7 +8,7 @@ import time
 import pandas as pd
 
 
-file_path = "/Users/tuanadurmus/Desktop/Tiktok Kasım 2024.txt"
+file_path = "/Users/tuanadurmus/Desktop/Tiktok_Data.txt"
 
 tiktok_data = []
 
