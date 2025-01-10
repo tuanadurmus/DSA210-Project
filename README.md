@@ -5,7 +5,7 @@ In this project, I'm using my TikTok liked video data and Spotify listened genre
 
 
 
-##Motivation
+## Motivation
 
 The main purpose of this project is to explore the relationship between the content I'm exposed to on TikTok and the music type I choose to listen to on Spotify, and to understand the emotional effect these contents might have on my mood. This data analysis could highlight the huge impact of social media and the content we consume on our daily mood and emotions.
 
