@@ -2,7 +2,25 @@
 
 ## Contents
 
--[Project Idea](## Project Idea)
+-[Project Idea](##project-idea)
+
+-[Motivation](##motivation)
+
+-[Tools](##tools)
+
+-[Hypothesis](##hypothesis)
+
+-[Data Sources](##data-sources)
+  -[TikTok Liked Video Data](###tiktok-liked-video-data:)
+  -[Spotify Listening Data](###spotify-listening-data:)
+
+-[Data Extraction](##data-extraction)
+  -[TikTok Data](###tiktok-data:)
+  -[Spotify Data](###spotify-data:)
+
+
+
+
 
 ## Project Idea
 
@@ -36,7 +54,6 @@ The main purpose of this project is to explore the relationship between the cont
 
 I expect to choose more upbeat and hype genres (e.g., pop, electronic, or hip-hop) when I am exposed to positive TikTok content and more slow and emotional genres (e.g., indie, classical, or lo-fi) when exposed to negative TikTok content.
 
-## Tools
 
 ## Data Sources
 
