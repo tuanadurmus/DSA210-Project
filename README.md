@@ -20,23 +20,23 @@ I expect to choose more upbeat and hype genres (e.g., pop, electronic, or hip-ho
 The datasets used in this project include two main sources:
 
 ### TikTok Liked Video Data:
-This data is directly exported from TikTok's personal data request. The data file contains the URL's of the TikTok videos that I liked, accompanied by the information of the date and exact time that I liked the video. The data which Tiktok provides do not contain the hashtag information of the videos. To reach each liked videos hashtag, I made use of a powerful web scraping tool dealing with dynamic TikTok content which is Selenium. [The codes](Tiktok_Hashtag_Extract.py) to extract the hashtags from the URL's are provided as a file above.
+This data is directly exported from TikTok's personal data request. The data file contains the URL's of the TikTok videos that I liked, accompanied by the information of the date and exact time that I liked the video. 
 
 
 ### Spotify Listening Data:
 This data is also extracted from the Spotify's personal data request. The dataset holds the information of the track name that I listened to at a specific date and time accompanied by artist name and album name. 
-With the help of Spotify Web API, I was able to reach the genre of the music I've listened to. The first step was to create a Spotify Developer Account and get a Client ID. Next step was to run the [following codes](Spotify_genre_extract.py) to reach the genre of the artists to categorize the songs.
-
 
 
 
 
 ## Data Extraction
-TikTok Data:
-Extract the URLs of liked videos from the TikTok API.
-Retrieve the associated hashtags of these liked videos.
-Classify the hashtags into positive or negative categories based on their sentiment or meaning.
+### TikTok Data:
 
-Spotify Data:
-Extract the genre of music I listened to the most on each specific month using the Spotify API.
+The data which Tiktok provides do not contain the hashtag information of the videos. To reach each liked video's hashtag, I made use of a powerful web scraping tool dealing with dynamic TikTok content which is Selenium (which also makes use of ChromeDriver to dynamically extract the hashtags). [The codes](Tiktok_Hashtag_Extract.py) to extract the hashtags from the URLs are provided as a file above.
+
+
+### Spotify Data:
+
+With the help of Spotify Web API, I was able to reach the genre of the music I've listened to. The first step was to create a Spotify Developer Account and get a Client ID. Next step was to run the [following codes](Spotify_genre_extract.py) to reach the genre of the artists to categorize the songs.
+
 
